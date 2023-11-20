@@ -32,7 +32,7 @@ Original file is located at
 import pandas as pd
 import streamlit as st
 import numpy as np
-import seaborn as sns
+
 
 data1 = pd.read_csv('/content/drive/MyDrive/PRSA_Data_20130301-20170228/PRSA_Data_Aotizhongxin_20130301-20170228.csv', delimiter=',')
 
