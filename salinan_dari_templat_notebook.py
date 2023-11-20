@@ -24,23 +24,6 @@ Original file is located at
 ## Menyaipkan semua library yang dibutuhkan
 """
 
-!pip install -q streamlit
-
-# Commented out IPython magic to ensure Python compatibility.
-# %%writefile app.py
-# 
-# import streamlit as st
-# 
-# st.write('Hello, *World!* :sunglasses:')
-
-!npm install localtunnel
-
-!streamlit run app.py &>/content/logs.txt &
-
-!npx localtunnel --port 8501
-
-from google.colab import drive
-drive.mount('/content/drive')
 
 # Commented out IPython magic to ensure Python compatibility.
 # %matplotlib inline
