@@ -28,7 +28,7 @@ Original file is located at
 # Commented out IPython magic to ensure Python compatibility.
 # %matplotlib inline
 
-import matplotlib.pyplot as plt
+
 import pandas as pd
 import streamlit as st
 import numpy as np
